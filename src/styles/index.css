@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f8f8fd;
+}
+
+button {
+  @apply focus:outline-none transition-all duration-300;
+}
+
+.text-gray-custom {
+  color: #7c7fb2;
+}
+.w-95 {
+  width: 95%;
+}
+
+.star-icon {
+  @apply w-4 h-4;
+}
+
+.featured-courses {
+  scroll-behavior: smooth;
+}
+
+.featured-courses::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 20px;
+  display: none;
+}
+
+/* Track */
+.featured-courses::-webkit-scrollbar-track {
+  background: #f8f8fc;
+  width: 2px;
+}
+
+/* Handle */
+.featured-courses::-webkit-scrollbar-thumb {
+  width: 2px;
+  background: #d0d0da;
+}
+
+/* Handle on hover */
+.featured-courses::-webkit-scrollbar-thumb:hover {
+  width: 2px;
+  background: #bcbcca;
+}
+.custom-shadow {
+  box-shadow: 8px 6px 29px #fafaff;
+}
+input {
+  @apply focus:outline-none;
+}
