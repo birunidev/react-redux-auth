@@ -11,3 +11,8 @@ Inside of this app, it is just a static dashbord layout. What this app does is j
 I also try to do the unit test for some components. it can be found in **tests** folder. and please correct me If I do something wrong.
 
 Thank you
+
+Live demo : <a href="https://react-dashboard-redux.netlify.app">https://react-dashboard-redux.netlify.app</a>
+
+DM me for demo email and pass
+Ig : <a href="https://instagram.com/birunidev">@birunidev</a>
